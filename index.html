@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time-Zone</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav class="navbar nav nav-tabs navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container">
+                <img class="navbar-brand" src="logo.png">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav nav-underline ms-auto my-2 my-lg-1" style="--bs-scroll-height: 175px;">
+                    <li class="nav-item">
+                    <a class="nav-link active navcss" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link navcss" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navcss" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Our Prodactes
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item navcss" data-bs-toggle="tab" data-bs-target="#tab-New-Prodactes" href="#">New Prodactes</a></li>
+                        <li><a class="dropdown-item navcss" data-bs-toggle="tab" data-bs-target="#tab-Prodactes-Item" href="#">Prodactes Item</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link navcss" href="#">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                    <button class="nav-link navcss" id="switchmode">Mode</button>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="tab-content">
+            <header id="tab-home" class="tab-pane fade active show">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="divp col-xl-8 col-lg-6 col-md-12 col-sm-12">
+                            <div>
+                                <h1 class="h1">
+                                    Select Your New Perfect Style
+                                </h1>
+                                <p class="p">
+                                    Ut enim ad minim Veniam , Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur
+                                </p>
+                                <butto class="btn mb-5 btn-warning">Shop Now</butto>
+                            </div>
+                        </div>
+                        <div class="divimg col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                            <img class="img heartbeat" src="img\hero\watch.png" alt="Error">
+                        </div> 
+                    </div>
+                </div>
+            </header>
+            <section class="container mt-5 tab-pane fade active show" id="tab-New-Prodactes">
+                <div class="row">
+                    <div>
+                        <h2 class="h2">
+                            New Products
+                        </h2>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <img class="imgsect" width="100%" src="img\gallery\new_product1.png" alt="clock">
+                        <p class="pimg mt-3">Omar_Kamal Front-end</p>
+                        <p class="p1">$ 50.500</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <img class="imgsect" width="100%" src="img\gallery\new_product2.png" alt="clock">
+                        <p class="pimg mt-3">Omar_Kamal Front-end</p>
+                        <p class="p1">$ 45.789</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <img class="imgsect" width="100%" src="img\gallery\new_product3.png" alt="clock">
+                        <p class="pimg mt-3">Omar_Kamal Front-end</p>
+                        <p class="p1">$ 70.162</p>
+                    </div>
+                    <div class="mb-2 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <img class="img imgsect2" width="100%" height="710px" src="img\gallery\gallery1.png" alt="img\gallery\gallery1.png">
+                    </div>
+                    <div class="mb-2 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+                        <img class="img imgsect2" width="100%" height="710px" src="img\gallery\gallery2.png" alt="img\gallery\gallery2.png">
+                    </div>
+                    <div class="mb-2 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+                        <img class="img imgsect2" width="100%" height="343px" src="img\gallery\gallery3.png" alt="img\gallery\gallery3.png">
+                        <img class="img imgsect2 mt-4" width="100%" height="342px" src="img\gallery\gallery4.png" alt="img\gallery\gallery4.png">
+                    </div>
+                </div>
+            </section>
+            <section class="container mt-4 tab-pane active show fade" id="tab-Prodactes-Item">
+                <div class="row">
+                    <div class="divsect3 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <h2 class="h2 mb-3 h2sect3">
+                            Popular Items
+                        </h2>
+                        <p class="psect3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo hic harum modi ullam
+                        </p>
+                        <p class="psect3">
+                            iste atque Quod pariatur fugiat eos harum alias eum.
+                        </p>
+                    </div>
+                    <div class="mt-3 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="addcard">
+                            <img class="imgsect3" width="100%" height="450px" src="img\gallery\popular1.png" alt="img\gallery\popular1.png">
+                            <i class="fa-regular fa-heart"></i>
+                            <h4 class="h4">Add Card</h4>
+                        </div>
+                        <p class="pimg mt-3">Thermo Ball Etip Gloves</p>
+                        <p class="p1">$ 50.500</p>
+                    </div>
+                    <div class="mt-3 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="addcard">
+                            <img class="imgsect3" width="100%" height="450px" src="img\gallery\popular2.png" alt="img\gallery\popular2.png">
+                            <i class="fa-regular fa-heart"></i>
+                            <h4 class="h4">Add Card</h4>
+                        </div>
+                        <p class="pimg mt-3">Thermo Ball Etip Gloves</p>
+                        <p class="p1">$ 45.789</p>
+                    </div>
+                    <div class="mt-3 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="addcard">
+                            <img class="imgsect3" width="100%" height="450px" src="img\gallery\popular3.png" alt="img\gallery\popular3.png">
+                            <i class="fa-regular fa-heart"></i>
+                            <h4 class="h4">Add Card</h4>
+                        </div>
+                        <p class="pimg mt-3">Thermo Ball Etip Gloves</p>
+                        <p class="p1">$ 09.162</p>
+                    </div>
+                    <div class="mt-3 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="addcard">
+                            <img class="imgsect3" width="100%" height="450px" src="img\gallery\popular4.png" alt="img\gallery\popular4.png">
+                            <i class="fa-regular fa-heart"></i>
+                            <h4 class="h4">Add Card</h4>
+                        </div>
+                        <p class="pimg mt-3">Thermo Ball Etip Gloves</p>
+                        <p class="p1">$ 40.710</p>
+                    </div>
+                    <div class="mt-3 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="addcard">
+                            <img class="imgsect3" width="100%" height="450px" src="img\gallery\popular5.png" alt="img\gallery\popular5.png">
+                            <i class="fa-regular fa-heart"></i>
+                            <h4 class="h4">Add Card</h4>
+                        </div>
+                        <p class="pimg mt-3">Thermo Ball Etip Gloves</p>
+                        <p class="p1">$ 22.123</p>
+                    </div>
+                    <div class="mt-3 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                        <div class="addcard">
+                            <img class="imgsect3" width="100%" height="450px" src="img\gallery\popular6.png" alt="img\gallery\popular6.png">
+                            <i class="fa-regular fa-heart"></i>
+                            <h4 class="h4">Add Card</h4>
+                        </div>
+                        <p class="pimg mt-3">Thermo Ball Etip Gloves</p>
+                        <p class="p1">$ 79.776</p>
+                    </div>
+                </div>
+            </section>
+            <section class="container mt-5">
+                <div class="row">
+                    <div class="divp col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                        <div>
+                            <h1 class="h1 h1sect4">
+                                Watch Of Choice
+                            </h1>
+                            <p class="p psect4">
+                                Ut enim ad minim Veniam , Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur
+                            </p>
+                            <butto class="btn">Shop Now</butto>
+                        </div>
+                    </div>
+                    <div class="divimg mt-3 col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                        <img class="img" width="420px" height="620px" src="img\gallery\popular6.png" alt="img\gallery\popular6.png">
+                    </div>
+                    <div class="divimg mt-5 col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                        <img class="img" width="420px" height="620px" src="img\gallery\popular4.png" alt="img\gallery\popular4.png">
+                    </div>
+                    <div class="divp mt-5 col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                        <div>
+                            <h1 class="h1 h1sect4">
+                                Watch Of Choice
+                            </h1>
+                            <p class="p psect4">
+                                Ut enim ad minim Veniam , Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur
+                            </p>
+                            <butto class="btn">Shop Now</butto>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="sectend mb-1 col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <i class="fa-solid ms-3 me-2 mt-3 fa-cube"></i>
+                        <h1 class="h1 ms-3 me-2 mt-4 h1sectend">
+                            Watch Of Choice Watch Of Choice
+                        </h1>
+                        <p class="p ms-3 psectend">
+                            Enim ad minim Veniam , quis
+                            nostrud exeracitatiion ullamco
+                        </p>
+                    </div>
+                    <div class="sectend mb-1 col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <i class="fa-solid ms-3 me-2 mt-3 fa-unlock-keyhole"></i>
+                        <h1 class="h1 ms-3 me-2 mt-4 h1sectend">
+                            Watch Of Choice Watch Of Choice
+                        </h1>
+                        <p class="p ms-3 psectend">
+                            Enim ad minim Veniam , quis
+                            nostrud exeracitatiion ullamco
+                        </p>
+                    </div>
+                    <div class="sectend mb-1 col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <i class="fa-duotone ms-3 me-2 mt-3 fa-solid fa-spinner"></i>
+                        <h1 class="h1 ms-3 me-2 mt-4 h1sectend">
+                            Watch Of Choice Watch Of Choice
+                        </h1>
+                        <p class="p ms-3 psectend">
+                            Enim ad minim Veniam , quis
+                            nostrud exeracitatiion ullamco
+                        </p>
+                    </div>
+                    <div class="sectend mb-1 col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <i class="fa-sharp ms-3 me-2 mt-3 fa-solid fa-list-check"></i>
+                        <h1 class="h1 ms-3 me-2 mt-4 h1sectend">
+                            Watch Of Choice Watch Of Choice
+                        </h1>
+                        <p class="p ms-3 psectend">
+                            Enim ad minim Veniam , quis
+                            nostrud exeracitatiion ullamco
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <footer class="container mt-5 mb-5 tab-pane active show fade" id="tab-about">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <img class="imgfooter" src="logo.png" alt="logo.png">
+                        <p class="pfooter mt-5 mb-5">
+                            Asorem ipum adipolor sdit amet , 
+                            consectetur adipisicing elited sed do
+                            eiusmod tem 
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <h3 class="h3 mb-4">
+                            Quick Links
+                        </h3>
+                        <p class="pfooter mt-2 mb-3">
+                            About
+                        </p>
+                        <p class="pfooter mt-2 mb-3">
+                            Offiers && Discount
+                        </p>
+                        <p class="pfooter mt-2 mb-3">
+                            Get Coupon
+                        </p>
+                        <p class="pfooter mt-2 mb-3">
+                            Contact Us
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <h3 class="h3 mb-4">
+                            New Products
+                        </h3>
+                        <p class="pfooter mt-2 mb-3">
+                            Woman Cloth
+                        </p>
+                        <p class="pfooter mt-2 mb-3">
+                            Fashion Accessories
+                        </p>
+                        <p class="pfooter mt-2 mb-3">
+                            Man Accessories
+                        </p>
+                        <p class="pfooter mt-2 mb-3">
+                            Rober Made Toyes
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <h3 class="h3 mb-4">
+                            Support
+                        </h3>
+                        <p class="pfooter mt-2 mb-3">
+                            Frequentiy Asked Questions
+                        </p>
+                        <p class="pfooter mt-2 mb-3">
+                            Terms && Condition
+                        </p>
+                        <p class="pfooter mt-2 mb-3">
+                            Privacy Policy
+                        </p>
+                        <p class="pfooter mt-2 mb-3">
+                            Report a Payment Issue
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
